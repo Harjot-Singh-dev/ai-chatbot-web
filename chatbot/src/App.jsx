@@ -17,8 +17,8 @@ function App() {
           <p>Hi, How can I help you ?</p>
         </div>
 
-        <div className="input">
-          <input type="text" name="input" placeholder="Enter your querry"/>
+        <div className="container-input">
+          <input type="text" name="input" placeholder="Enter your querry" className="input"/>
           <button type="button">Submit</button>
         </div>
       </div>
