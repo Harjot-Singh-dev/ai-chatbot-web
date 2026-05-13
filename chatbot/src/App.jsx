@@ -7,6 +7,9 @@ import './App.css'
 function App() {
   const [count, setCount] = useState(0)
 
+  const apiKey = import.meta.env.VITE_API_GEMINI_KEY;
+  console.timeLog(apiKey)
+
   return (
     <>
       <h1 className="heading">AI Chatbot</h1>
